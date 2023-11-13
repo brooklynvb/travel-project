@@ -1,0 +1,11 @@
+:root {
+    --korean-font: font-family: 'Hi Melody', sans-serif;
+    --bubbly-font: font-family: 'Bagel Fat One', sans-serif;
+}
+h1 {
+  font-family: var(--bubbly-font);
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 96px;
+  line-height: 144px;
+}
