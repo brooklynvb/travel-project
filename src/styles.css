@@ -2,10 +2,64 @@
     --korean-font: font-family: 'Hi Melody', sans-serif;
     --bubbly-font: font-family: 'Bagel Fat One', sans-serif;
 }
-h1 {
-  font-family: var(--bubbly-font);
-  font-style: normal;
-  font-weight: 700px;
+
+.container {
+ max-width: 1400px;
+ margin: 0 auto;
+}
+header  {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/seo-1.jpg");
+  background-repeat: no repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 180px 0px;
+}
+
+header h1 {
   font-size: 96px;
-  line-height: 144px;
+  line-height: 1.5; 
+  margin: 0 auto;
+}
+header h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+header h3 {
+  font-size: 24;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0 auto;
+}
+header a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 16px 32px;
+  margin-top: 30px;
+}
+@media(max-width: 800px) {
+  header {
+    padding: 30px;
+  }
+  header h1 {
+    font-size: 70px;
+  }
+   header h2 {
+    font-size: 20px;
+  }
+   header h3 {
+    font-size: 17px;
+  }
+  header a {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
 }
