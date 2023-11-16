@@ -1,13 +1,9 @@
-:root {
-    --korean-font: font-family: 'Hi Melody', sans-serif;
-    --bubbly-font: font-family: 'Bagel Fat One', sans-serif;
-}
 body {
-  background-color: rgb(55, 140, 156, .8);
+  background-color: rgb(55, 140, 156, 0.8);
 }
 .container {
- max-width: 1400px;
- margin: 0 auto;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 section {
   max-width: 100%;
@@ -19,8 +15,9 @@ section.secondary {
 }
 
 /* Head Banner */
-header  {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/seo-1.jpg");
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/seo-1.jpg");
   background-repeat: no repeat;
   background-size: cover;
   color: white;
@@ -30,7 +27,7 @@ header  {
 
 header h1 {
   font-size: 96px;
-  line-height: 1.5; 
+  line-height: 1.5;
   margin: 0 auto;
 }
 header h2 {
@@ -63,7 +60,6 @@ main {
 }
 .img-responsive {
   width: 100%;
-
 }
 main h2 {
   font-weight: 700;
@@ -104,7 +100,6 @@ main h4 {
   font-size: 24px;
   line-height: 1.5;
   margin: 0;
-
 }
 main h5 {
   font-size: 15px;
@@ -125,7 +120,7 @@ main h5 {
 .button {
   display: block;
   color: white;
-  background-color: rgba(1,26,31,1);
+  background-color: rgba(1, 26, 31, 1);
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 3px;
@@ -135,19 +130,17 @@ main h5 {
   text-decoration: none;
 }
 
-
-
 /* Grids */
 .grid {
   display: grid;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
-  grid-gap: 30px
+  grid-gap: 30px;
 }
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap:10px;
+  grid-gap: 10px;
 }
 .grid-3-columns-1-narrow {
   grid-template-columns: 1fr 2fr 2fr;
@@ -165,18 +158,16 @@ main h5 {
   height: 100%;
 }
 .insta-embed {
- margin: 30px auto;
- display: flex;
- justify-content: center;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
 }
-
-
-
 
 /* Footer */
 footer {
   color: white;
-  background-image: linear-gradient(rgba(1,26,31,0.8), rgba(1,26,31,0.8)), url("../images/lake-seo.webp");
+  background-image: linear-gradient(rgba(1, 26, 31, 0.8), rgba(1, 26, 31, 0.8)),
+    url("../images/lake-seo.webp");
   background-repeat: no repeat;
   background-size: cover;
   padding: 0;
@@ -184,7 +175,6 @@ footer {
 footer h3 {
   font-size: 20px;
   line-height: 1.5;
- 
 }
 footer p {
   font-size: 16px;
@@ -208,7 +198,7 @@ footer a {
 }
 
 /* Responsive */
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   header {
     padding: 25px;
   }
@@ -227,7 +217,7 @@ footer a {
   }
   .grid {
     grid-template-columns: 1fr;
-    grid-gap:32px
+    grid-gap: 32px;
   }
   .secondary a {
     font-size: 10px;
