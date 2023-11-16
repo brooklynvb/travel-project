@@ -62,7 +62,7 @@ main {
   background-color: white;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 
 }
 main h2 {
@@ -115,6 +115,10 @@ main h5 {
   margin: 0;
   font-size: 12px;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
 .card-body {
   padding: 10px 20px;
 }
@@ -149,6 +153,9 @@ main h5 {
 }
 .grid-pics {
   grid-template-columns: 1fr 1fr;
+}
+.grid-pics.grid {
+  grid-gap: 0;
 }
 .grid-pic-height {
   object-fit: cover;
@@ -212,5 +219,11 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .grid-pic-height {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
